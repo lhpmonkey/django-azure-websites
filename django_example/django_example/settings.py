@@ -14,10 +14,10 @@ MANAGERS = ADMINS
         # 'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
         # 'NAME': '',                      # Or path to database file if using sqlite3.
         # # The following settings are not used with sqlite3:
-        # 'USER': '',
+        # 'USER': 'azure',
         # 'PASSWORD': '',
-        # 'HOST': '',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-        # 'PORT': '',                      # Set to empty string for default.
+        # 'HOST': '127.0.0.1',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
+        # 'PORT': '57152',                      # Set to empty string for default.
     # }
 # }
 
@@ -25,11 +25,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'mysql_pymysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': 'localdb',                      # Or path to database file if using sqlite3.
-        # The following settings are not used with sqlite3:
         'USER': 'azure',
         'PASSWORD': '',
         'HOST': '127.0.0.1',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-        'PORT': '54222',                      # Set to empty string for default.
+        'PORT': '57152',                      # Set to empty string for default.
     }
 }
 
